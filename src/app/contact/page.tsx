@@ -65,6 +65,8 @@ export default function ContactPage() {
       setIsSuccess(true);
       form.reset();
     } catch (error) {
+      console.error("Error submitting form:", error);
+
       // We'll never reach this in the dummy implementation
       setIsError(false);
     } finally {

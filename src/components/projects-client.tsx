@@ -7,7 +7,6 @@ import { AnimatedSection } from "@/components/animated-section";
 import { BackToTop } from "@/components/back-to-top";
 import { MagicCard } from "@/components/ui/magic-card";
 import { MagicButton } from "@/components/ui/magic-button";
-import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import {Github,Globe,Construction} from 'lucide-react'
